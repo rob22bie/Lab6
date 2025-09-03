@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab05-T2</title>
+</head>
+
+<body>
+    <h1>Welcome to My Web Portfolio</h1>
+
+    <p>
+        Learning HTML step-by-step
+    </p>
+
+    <nav>
+        <ul>
+            <li><a href="#h1">About Me</a></li>
+            <li><a href="#h2">Web Development Basics</a></li>
+            <li><a href="#h3">Sample Code</a></li>
+            <li><a href="#h4">Weekly Schedule</a></li>
+            <li><a href="#h5">Lab Details</a></li>
+            <li><a href="#h6">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2 id="h1">
+                About Me
+            </h2>
+            <figure>
+                <img src="pngtree-headshot-of-a-business-professional-wearing-a-necktie-vector-png-image_40533676.jpg"
+                    width="125" height="125">
+                <figcaption>Clip Art Headshot</figcaption>
+            </figure>
+
+            <p>
+                I love web development!<br>It allows me to build cool things with just code<br>HTML uses tags like
+                <code>&lt;div&gt;</code> and <code>&lt;section&gt;</code> to organize content.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="h2">
+                Web Development Basics
+            </h2>
+
+            <p>
+                HTML stands for Hyper Text Markup Language. It structures content using tags like
+                <code>&lt;h1&gt;</code>,
+                <code>&lt;p&gt;</code>, and <code>&lt;img&gt;</code>.
+            </p>
+        </section>
+        <section>
+            <h2 id="h3">
+                Sample Code
+            </h2>
+
+            <p>
+            <pre>function hello() {<br>  console.log("Hello, world!");<br>}
+        </pre>
+            </p>
+
+            <blockquote>"Web development is like magic — except it's real and you can learn it."</blockquote>
+        </section>
+        <section>
+            <h2 id="h4">
+                Weekly Schedule
+            </h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Activity</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Lecture</td>
+                        <td>10:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Lab</td>
+                        <td>2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Project Work</td>
+                        <td>1:00 PM
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">&copy; 2025 Robbie McNair - All rights reserved.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2 id="h5">
+                Lab Details
+            </h2>
+
+            <p>Lab sessions take place every Wednesday in EnGeo2203 at 2:00 PM. Attendance is required.</p>
+        </section>
+
+        <section>
+            <h2 id="h6">Contact Me</h2>
+
+            <form>
+                <label for="name">
+                    Name:<br><input type="text" id="name">
+                </label><br><br>
+                <label for="email">
+                    Email:<br><input type="text" id="email">
+                </label><br><br>
+                <label for="color">
+                    Favorite Color:<br><input type="color" id="color">
+                </label><br><br>
+                <label for="birthday">
+                    Birthday:<br><input type="date" id="color">
+                </label><br><br>
+                <label for="lab enjoyment">
+                    Are you enjoying this lab?<br>
+                    <div><input type="radio" id="yes">Yes</div>
+                    <div><input type="radio" id="no">No</div>
+                </label><br>
+                <label for="course">
+                    Course:<br><select>
+                        <option>301</option>
+                        <option>302</option>
+                        <option>480</option>
+                    </select>
+                </label><br><br>
+                <label for="feedback">
+                    Any feedback?<div>
+                        <textarea id="feedback"></textarea>
+                    </div>
+                </label>
+                
+                
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <br>
+        <p>Made with &hearts; and HTML.</p>
+        <p>&copy;2025 Robbie McNair. All rights reserved.</p>
+        <p>Last updated: August 26, 2025</p>
+    </footer>
+</body>
+
+</html>
